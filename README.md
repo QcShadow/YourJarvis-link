@@ -22,8 +22,8 @@
 
 | 下载渠道 | 入口 | 说明 |
 | :--- | :--- | :--- |
-| **Gitee** | [国内发行版](https://gitee.com/QcShadow/your-jarvis-link/releases) | 国内网络优先选择 |
-| **GitHub** | [GitHub Releases](https://github.com/QcShadow/YourJarvis-link/releases) | 同版本安装包与发行说明 |
+| **Gitee** | [国内发行版](https://gitee.com/QcShadow/your-jarvis-link/releases) | 约 5.8 MB 联网安装包，模型与语音资源按需下载 |
+| **GitHub** | [GitHub Releases](https://github.com/QcShadow/YourJarvis-link/releases) | 约 866 MB，包含模型与语音资源的同版本安装包 |
 | **版本说明** | [0.1.5 更新记录](https://github.com/QcShadow/YourJarvis-link/releases/tag/v0.1.5) | 一键更新、安装器视觉优化与开发能力开放 |
 
 在发行版附件中选择安装 **EXE**。资源分块由安装器自动下载、合并与校验，无需手动解压或输入命令。
@@ -103,7 +103,11 @@
 Get-FileHash .\JARVIS-Setup-0.1.5.exe -Algorithm SHA256
 ```
 
-0.1.5 正式 EXE 的 SHA-256：
+Gitee 0.1.5 联网安装 EXE 的 SHA-256：
+
+`30049b9162d1e1f2ea11e2fccbfab3eca9ed3496a6632066b8c141fb4fb5cf80`
+
+GitHub 0.1.5 含模型与语音资源安装 EXE 的 SHA-256：
 
 `417f3c445d598d57c37bdefcba2e9ce17854cbdeaf8f6c99749e1ca0a30e48b4`
 
