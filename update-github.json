@@ -1,7 +1,7 @@
 {
-  "version": "0.1.5",
-  "releaseUrl": "https://github.com/QcShadow/YourJarvis-link/releases/tag/v0.1.5",
-  "downloadUrl": "https://github.com/QcShadow/YourJarvis-link/releases/download/v0.1.5/JARVIS-Setup-0.1.5.exe",
-  "sha256": "417f3c445d598d57c37bdefcba2e9ce17854cbdeaf8f6c99749e1ca0a30e48b4",
-  "notes": "一键下载、重启并应用更新；重做安装/更新引导界面；朋友版开放长期记忆、时间、文件、目录、浏览器和联网搜索能力。"
+  "version": "0.1.6",
+  "releaseUrl": "https://github.com/QcShadow/YourJarvis-link/releases/tag/v0.1.6",
+  "downloadUrl": "https://github.com/QcShadow/YourJarvis-link/releases/download/v0.1.6/JARVIS-Setup-0.1.6.exe",
+  "sha256": "36935da97ff62f78b9e3b30f41a15d890441c5684c950400b386a45d82290a2f",
+  "notes": "主页自选安装语音输入和播报；Piper / .jvoice 音色库；纯净录音创建并保存音色；EXE 卸载向导，支持保留个人数据。"
 }
