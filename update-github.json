@@ -2,6 +2,6 @@
   "version": "0.1.6",
   "releaseUrl": "https://github.com/QcShadow/YourJarvis-link/releases/tag/v0.1.6",
   "downloadUrl": "https://github.com/QcShadow/YourJarvis-link/releases/download/v0.1.6/JARVIS-Setup-0.1.6.exe",
-  "sha256": "36935da97ff62f78b9e3b30f41a15d890441c5684c950400b386a45d82290a2f",
+  "sha256": "d94dfd42807f35d975c8a842e2ce93b5ebe5df628dc9472d93b0776e4862e5e8",
   "notes": "主页自选安装语音输入和播报；Piper / .jvoice 音色库；纯净录音创建并保存音色；EXE 卸载向导，支持保留个人数据。"
 }
