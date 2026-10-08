@@ -22,7 +22,7 @@
 
 | 下载渠道 | 入口 | 说明 |
 | :--- | :--- | :--- |
-| **Gitee** | [国内发行版](https://gitee.com/QcShadow/your-jarvis-link/releases) | 国内渠道目前仍为 v0.1.5；v0.1.6 同步待发布权限恢复 |
+| **Gitee** | [国内发行版](https://gitee.com/QcShadow/your-jarvis-link/releases) | v0.1.6 约 5.6 MB 联网安装包，语音资源按需下载 |
 | **GitHub** | [GitHub Releases](https://github.com/QcShadow/YourJarvis-link/releases) | v0.1.6 约 5.6 MB 联网安装包，语音资源按需下载 |
 | **版本说明** | [0.1.6 更新记录](https://github.com/QcShadow/YourJarvis-link/releases/tag/v0.1.6) | 按需语音、录音创建音色、音色库和卸载向导 |
 
@@ -97,7 +97,7 @@
 </details>
 
 <details>
-<summary><strong>如何手动校验 0.1.5 安装包？</strong></summary>
+<summary><strong>如何手动校验 0.1.6 安装包？</strong></summary>
 
 在安装包所在目录运行 PowerShell：
 
@@ -105,13 +105,9 @@
 Get-FileHash .\JARVIS-Setup-0.1.6.exe -Algorithm SHA256
 ```
 
-Gitee 0.1.5 联网安装 EXE 的 SHA-256：
+Gitee 与 GitHub 0.1.6 联网安装 EXE 使用相同文件，SHA-256：
 
-`30049b9162d1e1f2ea11e2fccbfab3eca9ed3496a6632066b8c141fb4fb5cf80`
-
-GitHub 0.1.5 含模型与语音资源安装 EXE 的 SHA-256：
-
-`417f3c445d598d57c37bdefcba2e9ce17854cbdeaf8f6c99749e1ca0a30e48b4`
+`d94dfd42807f35d975c8a842e2ce93b5ebe5df628dc9472d93b0776e4862e5e8`
 
 </details>
 
@@ -121,4 +117,4 @@ YourJarvis 是 QcShadow 基于 [OpenJarvis 官方项目](https://github.com/open
 
 本项目不是 OpenJarvis 官方发布。上游框架采用 [Apache License 2.0](https://github.com/QcShadow/YourJarvis-dev/blob/main/LICENSE)，发布包保留第三方组件的许可证与声明，并排除制作者的密钥、私人配置、聊天、记忆和浏览器数据。
 
-朋友版 0.1.5 使用安装目录内的独立 Python、模型、配置和数据，后台与 Ollama 自动选择空闲端口，可与开发版并行运行。不要安装进开发目录；建议使用 `D:\YourJarvis-Test`。更新菜单现在可下载后直接重启应用更新。
+朋友版 0.1.6 使用安装目录内的独立 Python、模型、配置和数据，后台与 Ollama 自动选择空闲端口，可与开发版并行运行。不要安装进开发目录；建议使用 `D:\YourJarvis-Test`。更新菜单现在可下载后直接重启应用更新。
