@@ -1,7 +1,7 @@
 {
-  "version": "0.1.6",
-  "releaseUrl": "https://gitee.com/QcShadow/your-jarvis-link/releases/tag/v0.1.6",
-  "downloadUrl": "https://gitee.com/QcShadow/your-jarvis-link/releases/download/v0.1.6/JARVIS-Setup-0.1.6.exe",
-  "sha256": "d94dfd42807f35d975c8a842e2ce93b5ebe5df628dc9472d93b0776e4862e5e8",
-  "notes": "主页自选安装语音输入和播报；Piper / .jvoice 音色库；纯净录音创建并保存音色；EXE 卸载向导，支持保留个人数据。"
+  "version": "0.2.0",
+  "releaseUrl": "https://github.com/QcShadow/YourJarvis-link/releases/tag/v0.2.0",
+  "downloadUrl": "https://github.com/QcShadow/YourJarvis-link/releases/download/v0.2.0/JARVIS-Setup-0.2.0.exe",
+  "sha256": "84429f2b2c18e566e7bfbbc02393e7ba5c76a104e009d9c796dd0eb5633e8b48",
+  "notes": "聊天与语音统一所选模型；本地预加载与路由使用本安装目录服务；详细回复首句提前播报、唤醒预热、句尾识别与回合耗时显示。无需新资源包。"
 }

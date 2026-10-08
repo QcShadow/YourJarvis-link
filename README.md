@@ -16,15 +16,15 @@
 
 **YourJarvis Link** 是 YourJarvis 的 Windows 朋友版。通过中文图形向导安装运行环境、应用和所需模型，支持轻量本地模型、兼容 API 或 JARVIS 共享主机。
 
-> **当前正式版：0.1.6** · 下载 **`JARVIS-Setup-0.1.6.exe`** 后直接双击。首次安装需要联网准备资源，完成后默认本地模型与已安装的本地语音可离线使用。
+> **当前正式版：0.2.0** · 下载 **`JARVIS-Setup-0.2.0.exe`** 后直接双击。首次安装需要联网准备资源，完成后默认本地模型与已安装的本地语音可离线使用。
 
 ## 下载与版本
 
 | 下载渠道 | 入口 | 说明 |
 | :--- | :--- | :--- |
-| **Gitee** | [国内发行版](https://gitee.com/QcShadow/your-jarvis-link/releases) | v0.1.6 约 5.6 MB 联网安装包，语音资源按需下载 |
-| **GitHub** | [GitHub Releases](https://github.com/QcShadow/YourJarvis-link/releases) | v0.1.6 约 5.6 MB 联网安装包，语音资源按需下载 |
-| **版本说明** | [0.1.6 更新记录](https://github.com/QcShadow/YourJarvis-link/releases/tag/v0.1.6) | 按需语音、录音创建音色、音色库和卸载向导 |
+| **Gitee** | [国内仓库](https://gitee.com/QcShadow/your-jarvis-link) | 更新索引同步至 v0.2.0，安装 EXE 暂使用 GitHub 下载 |
+| **GitHub** | [GitHub Releases](https://github.com/QcShadow/YourJarvis-link/releases) | v0.2.0 约 5.6 MiB 联网安装包，复用已有资源 |
+| **版本说明** | [0.2.0 更新记录](https://github.com/QcShadow/YourJarvis-link/releases/tag/v0.2.0) | 模型选择同步与语音交互优化 |
 
 在发行版附件中选择安装 **EXE**。资源分块由安装器自动下载、合并与校验，无需手动解压或输入命令。
 
@@ -43,7 +43,7 @@
 
 ## 首次安装
 
-1. **下载安装包** — 从上方渠道获取 `JARVIS-Setup-0.1.6.exe`，双击运行。
+1. **下载安装包** — 从上方渠道获取 `JARVIS-Setup-0.2.0.exe`，双击运行。
 2. **选择位置与方案** — 使用默认位置或独立文件夹；首次体验建议选择「轻量本地模型 + 先使用文字」。
 3. **等待安装与自检** — 向导自动准备依赖和模型，通过实际启动检查后才显示完成。
 4. **开始对话** — 使用桌面快捷方式或安装目录内的 `JARVIS.exe` 启动。
@@ -62,7 +62,7 @@
 
 ## 升级与修复
 
-**升级：** v0.1.5 更新器的地址列表读取存在兼容问题，首次升级请运行 v0.1.6 安装器并选择原目录，无需重新配置。v0.1.6 已修复更新器，后续可从托盘“检查更新”下载并重启更新。向导保留配置、密钥、聊天、记忆、模型和日志，并清理旧 bootstrap 与独立语音下载入口。
+**升级：** v0.1.5 更新器的地址列表读取存在兼容问题，首次升级请运行 v0.2.0 安装器并选择原目录，无需重新配置。v0.1.6 及以后版本已修复更新器，后续可从托盘“检查更新”下载并重启更新。向导保留配置、密钥、聊天、记忆、模型和日志，并清理旧 bootstrap 与独立语音下载入口。
 
 **修复：** 安装失败时查看日志、调整方案并重试；启动失败页提供「修复安装」、重试和打开日志入口。当前版本直接使用安装 EXE 完成安装与修复。
 
@@ -97,17 +97,17 @@
 </details>
 
 <details>
-<summary><strong>如何手动校验 0.1.6 安装包？</strong></summary>
+<summary><strong>如何手动校验 0.2.0 安装包？</strong></summary>
 
 在安装包所在目录运行 PowerShell：
 
 ```powershell
-Get-FileHash .\JARVIS-Setup-0.1.6.exe -Algorithm SHA256
+Get-FileHash .\JARVIS-Setup-0.2.0.exe -Algorithm SHA256
 ```
 
-Gitee 与 GitHub 0.1.6 联网安装 EXE 使用相同文件，SHA-256：
+GitHub 0.2.0 联网安装 EXE 的 SHA-256（Gitee 更新索引指向此文件）：
 
-`d94dfd42807f35d975c8a842e2ce93b5ebe5df628dc9472d93b0776e4862e5e8`
+`84429f2b2c18e566e7bfbbc02393e7ba5c76a104e009d9c796dd0eb5633e8b48`
 
 </details>
 
@@ -117,4 +117,4 @@ YourJarvis 是 QcShadow 基于 [OpenJarvis 官方项目](https://github.com/open
 
 本项目不是 OpenJarvis 官方发布。上游框架采用 [Apache License 2.0](https://github.com/QcShadow/YourJarvis-dev/blob/main/LICENSE)，发布包保留第三方组件的许可证与声明，并排除制作者的密钥、私人配置、聊天、记忆和浏览器数据。
 
-朋友版 0.1.6 使用安装目录内的独立 Python、模型、配置和数据，后台与 Ollama 自动选择空闲端口，可与开发版并行运行。不要安装进开发目录；建议使用 `D:\YourJarvis-Test`。更新菜单现在可下载后直接重启应用更新。
+朋友版 0.2.0 使用安装目录内的独立 Python、模型、配置和数据，后台与 Ollama 自动选择空闲端口，可与开发版并行运行。不要安装进开发目录；建议使用 `D:\YourJarvis-Test`。更新菜单现在可下载后直接重启应用更新。
