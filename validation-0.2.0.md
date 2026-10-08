@@ -15,3 +15,5 @@
 最终安装 EXE：5,849,600 字节，SHA-256 `84429f2b2c18e566e7bfbbc02393e7ba5c76a104e009d9c796dd0eb5633e8b48`。
 
 GitHub 发布附件已上传并与服务器返回 SHA-256 比对。Gitee 发行页暂连接超时，Gitee 仓库更新索引同步为同一 GitHub 安装文件的已校验地址；没有发布指向不存在的 Gitee v0.2.0 EXE 的地址。
+
+正式发布后验证：GitHub latest 为 v0.2.0；GitHub、Gitee main 更新索引均已同步。使用与 v0.1.6 桌面相同的原生 UpdateChecker 和 .NET Framework 4.8 设置，实际发现 v0.2.0、下载公开 EXE 并通过 SHA-256 校验；从发布页再次下载的 EXE 也与本地构建哈希一致。
